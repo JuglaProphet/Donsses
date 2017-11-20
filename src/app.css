@@ -1,0 +1,10 @@
+html {min-height:100%; position:relative; /* make sure it is at least as tall as the viewport */}
+body {/*border:1px solid; width:95%; height:50em;*/ /* force the BODY element to match the height of the HTML element */}
+
+div.mainImgDisplay div {margin: .5%; width: 49%; height: 24.2em; float: left;}
+
+#a, #b, #c, #d {opacity: 0.5;}
+#a {background: blue;}
+#b {background: red;}
+#c {background: green; clear: left;}
+#d {background: black;}
